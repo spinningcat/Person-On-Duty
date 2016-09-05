@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./css/jquery-ui.css">
+  <link rel="stylesheet" type="text/css" href="./css/jqx.base.css">
+  <link rel="stylesheet" type="text/css" href="./css/jqx.bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+</head>
+<body>
+<select name="mydropdown1" class="firstdropdown">
+  <option selected="selected">default
+  </option>
+</select>
+<select name="mydropdown2" class="seconddropdown">
+  <option selected="selected">default
+</select>
+<br />
+<div class="type">
+  <input type="radio" name="radio" id="radio1" class="radio">
+  <label for="radio1" class="label">4 Nöbetçisi</label>
+</div>
+
+<div class="type">
+  <input type="radio" name="radio" id="radio2" class="radio" />
+  <label for="radio2" class="label">Normal Nöbetçi</label>
+</div>
+<div class="type">
+  <input type="radio" name="radio" id="radio3" class="radio">
+  <label for="radio3" class="label">Tam zamanlı nöbetçi</label>
+</div>
+<br />
+<br />
+<br />
+<div id="datepickerPart" class="datePicker hidden">
+  <input class="input from" />
+  <input class="input to" />
+  <button class="updateButton">✎ </button>
+  <button class="controlButton">√ </button>
+
+</div>
+<div class="calendar">
+<div id='jqxCalendar'></div>
+</div>
+
+<button id="new">✚</button>
+<button id="remove">✂</button>
+<div class="datePart">
+
+</div>
+
+
+<button id="submit">
+  ↻
+</button>
+<div id="scheduler"></div>
+<div id='jqxWidget'></div>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script src="./js/globalize.js"></script>
+<script src="./js/jqx-all.js"></script>
+<script src="./js/moment.js"></script>
+<script src="./js/jquery-ui.js"></script>
+<script src="./js/PersonOnDuty.js"></script>
+</body>
+</html>
