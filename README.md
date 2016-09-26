@@ -154,19 +154,19 @@
 
 *When you create datepicker with + button. And after selecting range of date.  Days between those dates will be disabled also days before "starting date" will be disabled.*
 
-![Disabled Dates][Dates1]
+![Dates1][Dates1]
 
 [Dates1]: https://i.itsosticky.com/iq2udc.png "Disabled Dates"
 
 *Both calendars show the last days of pervious month*
 
-![Pervious Dates][Dates2]
+![Dates2][Dates2]
 
 [Dates2]: https://i.itsosticky.com/10njc8l.png "Pervious Dates"
 
 *Jqx widget calendar can be colorized after selecting both dates.*
 
-![Disabled Dates][Colorized]
+![Colorized][Colorized]
 
 [Colorized]: https://i.itsosticky.com/10o9lqw.png "Colorized"
 
