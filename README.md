@@ -1,7 +1,5 @@
 # PersonOnDuty
 
-# illustration-for-filtering-dom-elements---1
-
 #####*What are used in that project.*
 
 *JavaScript and jQuery were used together in this project."
