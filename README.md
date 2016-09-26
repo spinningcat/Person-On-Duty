@@ -52,8 +52,11 @@
 *Two calendar plugins were used.*
 1. **https://jqueryui.com/datepicker/**
 2. **http://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxcalendar/jquery-calendar-getting-started.htm**
+
+
 *Calendar are Turkish*
-``
+
+```javascript
       monthNames: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran',
         'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'
       ],
@@ -63,10 +66,11 @@
       dayNames: ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'],
       dayNamesShort: ['Pz', 'Pt', 'Sa', 'Ça', 'Pe', 'Cu', 'Ct'],
       dayNamesMin: ['Pz', 'Pt', 'Sa', 'Çr', 'Pr', 'Cu', 'Ct'],
-``
+```
+
 ###**Figure 1 - jQuery Datepicker UI**
 
-``
+```javascript
   (function(window, undefined) {
 
     var Globalize;
@@ -149,7 +153,7 @@
   $("#jqxCalendar").jqxCalendar({
     culture: 'tr-TR'
   });
-``
+```
 ###**Figure 2 - Jqx widget calendar**  
 
 *When you create datepicker with + button. And after selecting range of date.  Days between those dates will be disabled also days before "starting date" will be disabled.*
