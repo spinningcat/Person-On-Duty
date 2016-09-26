@@ -9,7 +9,7 @@
 2. **Jqx widget**
 
 #####*The plugins are used in that project.*
-1. **jQuery UI datepicker**
+1.  **jQuery UI datepicker**
 2. **Jqx widget Calendar**
 
 #####*Aim of this software*
@@ -18,17 +18,17 @@
 
 #####*Feature and functionality of this Software (Briefly)*
 
-1. **Two calendar plugins were used.**
-2. **Calendars are Turkish.**
-3. **When you create datepicker with + button. And after selecting range of date.  Days between those dates will be disabled also days before "starting date" will be disabled.**
-4. **When you select a date from next months the next calendar will show the other months automatically.**
-5. **Both calendars show the last days of pervious month**
-6. **Jqx widget calendar can be colorized after selecting both dates.**
-7. **Weekend Days are shown within a box**
-8. **When you select the dates from both input boxes. Jqx calendar will be colorized and when you hover over you will see "tooltip" with your selection from dropdown and radiobox.**
-9. **You can remove any dates of range by clicking "pencil" button that you see beside input box.**
-10. **When you remove one of the input boxes, Above calendar will be colorized with other range of dates and with the choice you made, that is spesific to range of date. You can see when you hover over spesific range of date. (This feature is personal logic, fot from API)**
-11. **You will see current date which is colorized with red in jqx calendar.**
+
+1. **Calendars are Turkish.**
+2. **You select the dates after creating datepickers with "+". After selecting both dates e.g. 16 September - 19 September, the dates in this range (16 to 19 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
+3. **When you select a date from next months the next calendar will show the next month automatically.**
+4. **Both calendars show the last days of pervious month.**
+5. **Jqx widget calendar can be colorized after selecting both dates from input boxes.**
+6. **Weekend Days are shown within a box**
+7. **When you select the dates from both input boxes. Jqx calendar will be colorized and when you hover over dates in the jqx calendar you will see "tooltip" with your selection from dropdown and radiobox.**
+8. **You can remove any dates of range by clicking "pencil" button that you see beside input box.**
+9. **When you remove one of the input boxes, Above calendar will be colorized with other range of dates and with the choice you made, that is spesific to range of date. You can see when you hover over spesific range of date. (This feature is personal logic, fot from API)**
+10. **You will see current date which is colorized with red in jqx calendar.**
 
 #####*Feature Plan (Future)*
 1. **In the datepicker's title you select month and year with dropdown. Make it like windows calenrdar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box**
