@@ -2,7 +2,7 @@
 
 #####*What are used in that project.*
 
-*JavaScript and jQuery were used together in this project."
+*JavaScript and jQuery were used together in this project.*
 
 #####"The libraries that are used in this project.*
 1. **Jquery UI**
@@ -118,12 +118,13 @@
   });
 ```
 ###**Figure 2 - Jqx widget calendar**  
+
 2. **You select the dates after creating datepickers with "+". After selecting both dates e.g. 16 September - 19 September, the dates in this range (16 to 19 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
 ![Dates1][Dates1]
 
 [Dates1]: https://i.itsosticky.com/iq2udc.png "Disabled Dates"
 
-3. *When you select a date from next months in any datepickers. The next datepickers will show the next month automatically. Such as You pick a date from first datepicker. The date you picked is in next months such as OctoberEkim), November(Kasım), December(Aralık), etc. (Calendar indicates the current month as September(Eylül) currently.) In that case, second datepicker will show October(Ekim), Novermber(Kasım) or December(Aralık) as current month. Thanks to that functionality, you can save your time instead of wasting your time with trying to find month that you have select the dates. The reason of that, When you select 1 Oct.(Ekim) from first datepicker you cannot select any days from September(Eylül) in next datepickers.. Thats the prerequisite of this program. **
+3. **When you select a date from next months in any datepickers. The next datepickers will show the next month automatically. Such as You pick a date from first datepicker. The date you picked is in next months such as OctoberEkim), November(Kasım), December(Aralık), etc. (Calendar indicates the current month as September(Eylül) currently.) In that case, second datepicker will show October(Ekim), Novermber(Kasım) or December(Aralık) as current month. Thanks to that functionality, you can save your time instead of wasting your time with trying to find month that you have select the dates. The reason of that, When you select 1 Oct.(Ekim) from first datepicker you cannot select any days from September(Eylül) in next datepickers.. Thats the prerequisite of this program. **
 ![Dates2][Dates2]
 
 [Dates2]: https://i.itsosticky.com/10njc8l.png "Pervious Dates"
@@ -153,12 +154,14 @@
 
 
 #####*Feature Plan (Future)*
+
 1. **In the datepicker's title you select month and year with dropdown. Make it like windows calendar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box**
 2. **Lets say you choose a date from may and we are in January. Showing all calendars seperately at the same time . **
 3. **To show official holidays either in the jquery ui datepicker or in jqx calendar**
 
 
 #####"The working flow of this projet*
+
 1. **Select the department from first dropdown.**
 2. **Select a person name from second dropdown.**
 3. **Select the type of duty from radio boxes.**
