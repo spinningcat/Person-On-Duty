@@ -18,7 +18,7 @@
 
 #####*Feature and functionality of this Software (With images)*
 
-1. **Both calendars are Turkish"
+1. **Both calendars are Turkish**
 ```javascript
       monthNames: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran',
         'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'
