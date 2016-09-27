@@ -150,6 +150,7 @@
 ![After][After]
 
 [After]: https://i.itsosticky.com/131uzod.png "After"
+
 10. **You will see current date which is colorized with red in jqx calendar.**
 
 #####*Feature Plan (Future)*
