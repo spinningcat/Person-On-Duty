@@ -151,7 +151,7 @@
 
 [After]: https://i.itsosticky.com/131uzod.png "After"
 
-10. **You will see current date which is colorized with red in jqx calendar.**
+
 
 #####*Feature Plan (Future)*
 1. **In the datepicker's title you select month and year with dropdown. Make it like windows calenrdar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box**
