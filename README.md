@@ -154,8 +154,8 @@
 
 
 #####*Feature Plan (Future)*
-1. **In the datepicker's title you select month and year with dropdown. Make it like windows calenrdar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box**
-2. ** Lets say you choose a date from may and web are in January. Showing all months calendar together. **
+1. **In the datepicker's title you select month and year with dropdown. Make it like windows calendar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box**
+2. **Lets say you choose a date from may and we are in January. Showing all calendars seperately at the same time . **
 3. **To show official holidays either in the jquery ui datepicker or in jqx calendar**
 
 
