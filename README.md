@@ -1,22 +1,24 @@
 # PersonOnDuty
 
-#####*What are used in that project.*
+##### *What are used in that project.*
 
 *JavaScript and jQuery were used together in this project.*
 
-#####"The libraries that are used in this project.*
+##### *The libraries that are used in this project.*
+
 1. **Jquery UI**
 2. **Jqx widget**
 
-#####*The plugins are used in that project.*
+##### *The plugins are used in that project.*
+
 1.  **jQuery UI datepicker -> https://jqueryui.com/datepicker/**
 2. **Jqx widget Calendar -> http://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxcalendar/jquery-calendar-getting-started.htm**
 
-#####*Aim of this development*
+##### *Aim of this development*
 
 *This frontend development is aimed to offer good interface for such companies carries out the operation in 7/24 basis. Each department must assign a person for not only observing system but also report any problem to related department." 
 
-#####*Feature and functionality of this Software (With images)*
+##### *Feature and functionality of this Software (With images)*
 
 1. **Both calendars are Turkish**
 ```javascript
@@ -31,7 +33,7 @@
       dayNamesMin: ['Pz', 'Pt', 'Sa', 'Çr', 'Pr', 'Cu', 'Ct'],
 ```
 
-###**Figure 1 - jQuery Datepicker UI**
+### **Figure 1 - jQuery Datepicker UI**
 
 ```javascript
   (function(window, undefined) {
@@ -75,7 +77,7 @@
         standard: {
           "/": ".",
           firstDay: 1,
-          days: {
+            days: {
             names: ["Pazar", "Pazartesi", "Sa", "Ça", "Pe", "Cu", "Ct"],
             namesAbbr: ["Pz", "Pt", "Sa", "Ça", "Pe", "Cu", "Ct"],
             namesShort: ["Pz", "Pt", "Sa", "Ça", "Pe", "Cu", "Ct"]
@@ -117,7 +119,7 @@
     culture: 'tr-TR'
   });
 ```
-###**Figure 2 - Jqx widget calendar**  
+### **Figure 2 - Jqx widget calendar**  
 
 2. **You select the dates after creating datepickers with "+". After selecting both dates e.g. 16 September - 19 September, the dates in this range (16 to 19 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
 ![Dates1][Dates1]
@@ -153,14 +155,14 @@
 
 
 
-#####*Feature Plan (Future)*
+##### *Feature Plan (Future)*
 
-1. **In the datepicker's title you select month and year with dropdown. Make it like windows calendar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box**
-2. **Lets say you choose a date from may and we are in January. Showing all calendars seperately at the same time . **
-3. **To show official holidays either in the jquery ui datepicker or in jqx calendar**
+1. **In the datepicker's title you select month and year with dropdown. Make it like windows calendar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box.**
+2. **Lets say you choose a date from may and we are in January. Showing all calendars seperately at the same time.**
+3. **To show official holidays either in the jquery ui datepicker or in jqx calendar.**
 
 
-#####"The working flow of this projet*
+##### "The working flow of this projet*
 
 1. **Select the department from first dropdown.**
 2. **Select a person name from second dropdown.**
@@ -170,9 +172,4 @@
 6. **Optional: You can remove any ranges of date with the choice you made by clicking pencil button. **
 
 
-#**[Working demo](http://jsfiddle.net/hellyeah/smzz2vvk/)**
-
-
-
-
-
+#**[Working demo](http://jsfiddle.net/hellyeah/smzz2vvk/)**+
