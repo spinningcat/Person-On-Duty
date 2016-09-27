@@ -118,7 +118,6 @@
   });
 ```
 ###**Figure 2 - Jqx widget calendar**  
-
 2. **You select the dates after creating datepickers with "+". After selecting both dates e.g. 16 September - 19 September, the dates in this range (16 to 19 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
 ![Dates1][Dates1]
 
