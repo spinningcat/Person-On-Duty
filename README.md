@@ -135,10 +135,21 @@
 
 [Colorized]: https://i.itsosticky.com/10o9lqw.png "Colorized"
 
-6. **Weekend Days are shown within a box**
-7. **When you select the dates from both input boxes. Jqx calendar will be colorized and when you hover over dates in the jqx calendar you will see "tooltip" with your selection from dropdown and radiobox.**
+6. **Weekend Days are shown within a box in the image above**
+7. **When you select the dates from both datepickers. Jqx calendar will be colorized with those selections and dates between. And when you hover over dates in the jqx calendar you will see "tooltip" with selected dates and dates between. Also selection from dropdowns and radiobox.**
+![Tooltip][Tooltip]
+
+[Tooltip]: https://i.itsosticky.com/zhi1pb.png "Tooltip"
+
 8. **You can remove any dates of range by clicking "pencil" button that you see beside input box.**
-9. **When you remove one of the input boxes, Above calendar will be colorized with other range of dates and with the choice you made, that is spesific to range of date. You can see when you hover over spesific range of date. (This feature is personal logic, fot from API)**
+9. **Anytime you can remove any datepickers. In case of concerning you made a mistake or in case of assigning different dates for a person. The operation is very simple but lots of going on behind the scene in functionality fashion. You just hit pencil button you can see besides input boxes. When you click it. It will remove input boxes and removes all colors and selection you made earlier. Then it will be recolorized with convenient informations. In short all range of dates and all informations you select from radiobox and dropdowns will be remembered. (This feature is personal logic, fot from API)**
+![Before][Before]
+
+[Before]: https://i.itsosticky.com/1a1iu96.png "Before"
+
+![After][After]
+
+[After]: https://i.itsosticky.com/131uzod.png "After"
 10. **You will see current date which is colorized with red in jqx calendar.**
 
 #####*Feature Plan (Future)*
@@ -158,28 +169,7 @@
 
 #**[Working demo](http://jsfiddle.net/hellyeah/smzz2vvk/)**
 
-#####*Semantic Overview*
 
 
-
-
-
-
-
-
-*When you select the dates from both input boxes. Jqx calendar will be colorized and when you hover over you will see "tooltip" with your selection from dropdown and radiobox.*
-![Tooltip][Tooltip]
-
-[Tooltip]: https://i.itsosticky.com/zhi1pb.png "Tooltip"
-
-When you remove one of the input boxes, Above calendar will be colorized with other range of dates and with the choice you made, that is spesific to range of date. You can see when you hover over spesific range of date. (This feature is personal logic, fot from API)
-
-![Before][Before]
-
-[Before]: https://i.itsosticky.com/1a1iu96.png "Before"
-
-![After][After]
-
-[After]: https://i.itsosticky.com/131uzod.png "After"
 
 
