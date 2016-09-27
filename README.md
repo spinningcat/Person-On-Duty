@@ -9,53 +9,16 @@
 2. **Jqx widget**
 
 #####*The plugins are used in that project.*
-1.  **jQuery UI datepicker**
-2. **Jqx widget Calendar**
+1.  **jQuery UI datepicker -> https://jqueryui.com/datepicker/**
+2. **Jqx widget Calendar -> http://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxcalendar/jquery-calendar-getting-started.htm**
 
-#####*Aim of this software*
+#####*Aim of this development*
 
 *This frontend development is aimed to offer good interface for such companies carries out the operation in 7/24 basis. Each department must assign a person for not only observing system but also report any problem to related department." 
 
-#####*Feature and functionality of this Software (Briefly)*
+#####*Feature and functionality of this Software (With images)*
 
-
-1. **Calendars are Turkish.**
-2. **You select the dates after creating datepickers with "+". After selecting both dates e.g. 16 September - 19 September, the dates in this range (16 to 19 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
-3. **When you select a date from next months the next calendar will show the next month automatically.**
-4. **Both calendars show the last days of pervious month.**
-5. **Jqx widget calendar can be colorized after selecting both dates from input boxes.**
-6. **Weekend Days are shown within a box**
-7. **When you select the dates from both input boxes. Jqx calendar will be colorized and when you hover over dates in the jqx calendar you will see "tooltip" with your selection from dropdown and radiobox.**
-8. **You can remove any dates of range by clicking "pencil" button that you see beside input box.**
-9. **When you remove one of the input boxes, Above calendar will be colorized with other range of dates and with the choice you made, that is spesific to range of date. You can see when you hover over spesific range of date. (This feature is personal logic, fot from API)**
-10. **You will see current date which is colorized with red in jqx calendar.**
-
-#####*Feature Plan (Future)*
-1. **In the datepicker's title you select month and year with dropdown. Make it like windows calenrdar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box**
-2. ** Lets say you choose a date from may and web are in January. Showing all months calendar together. **
-3. **To show official holidays either in the jquery ui datepicker or in jqx calendar**
-
-
-#####"The working flow of this projet*
-1. **Select the department from first dropdown.**
-2. **Select a person name from second dropdown.**
-3. **Select the type of duty from radio boxes.**
-4. **Create input boxes with + button.**
-5. **And select dates.**
-6. **Optional: You can remove any ranges of date with the choice you made by clicking pencil button. **
-
-
-#**[Working demo](http://jsfiddle.net/hellyeah/smzz2vvk/)**
-
-#####*Semantic Overview*
-
-*Two calendar plugins were used.*
-1. **https://jqueryui.com/datepicker/**
-2. **http://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxcalendar/jquery-calendar-getting-started.htm**
-
-
-*Calendar are Turkish*
-
+1. **Both calendars are Turkish"
 ```javascript
       monthNames: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran',
         'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'
@@ -156,11 +119,49 @@
 ```
 ###**Figure 2 - Jqx widget calendar**  
 
-*When you create datepicker with + button. And after selecting range of date.  Days between those dates will be disabled also days before "starting date" will be disabled.*
-
+2. **You select the dates after creating datepickers with "+". After selecting both dates e.g. 16 September - 19 September, the dates in this range (16 to 19 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
 ![Dates1][Dates1]
 
 [Dates1]: https://i.itsosticky.com/iq2udc.png "Disabled Dates"
+
+3. **When you select a date from next months the next calendar will show the next month automatically.**
+
+4. **Both calendars show the last days of pervious month.**
+5. **Jqx widget calendar can be colorized after selecting both dates from input boxes.**
+6. **Weekend Days are shown within a box**
+7. **When you select the dates from both input boxes. Jqx calendar will be colorized and when you hover over dates in the jqx calendar you will see "tooltip" with your selection from dropdown and radiobox.**
+8. **You can remove any dates of range by clicking "pencil" button that you see beside input box.**
+9. **When you remove one of the input boxes, Above calendar will be colorized with other range of dates and with the choice you made, that is spesific to range of date. You can see when you hover over spesific range of date. (This feature is personal logic, fot from API)**
+10. **You will see current date which is colorized with red in jqx calendar.**
+
+#####*Feature Plan (Future)*
+1. **In the datepicker's title you select month and year with dropdown. Make it like windows calenrdar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box**
+2. ** Lets say you choose a date from may and web are in January. Showing all months calendar together. **
+3. **To show official holidays either in the jquery ui datepicker or in jqx calendar**
+
+
+#####"The working flow of this projet*
+1. **Select the department from first dropdown.**
+2. **Select a person name from second dropdown.**
+3. **Select the type of duty from radio boxes.**
+4. **Create input boxes with + button.**
+5. **And select dates.**
+6. **Optional: You can remove any ranges of date with the choice you made by clicking pencil button. **
+
+
+#**[Working demo](http://jsfiddle.net/hellyeah/smzz2vvk/)**
+
+#####*Semantic Overview*
+
+
+
+
+
+
+
+
+
+
 
 *Both calendars show the last days of pervious month*
 
