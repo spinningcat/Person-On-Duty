@@ -124,7 +124,10 @@
 
 [Dates1]: https://i.itsosticky.com/iq2udc.png "Disabled Dates"
 
-3. **When you select a date from next months the next calendar will show the next month automatically.**
+3. *When you select a date from next months in any datepickers. The next datepickers will show the next month automatically. Such as You pick a date from first datepicker. The date you picked is in next months such as October, November, December, etc. (Calendar indicates the current month as September currently.) In that case, second datepicker will show October, Novermber or December as current month. Thanks to that functionality, you can save your time instead of wasting your time with trying to find month that you have select the dates. The reason of that, When you select 1 Oct. from first datepicker you cannot select any days from September. Thats the prerequisite of this program. **
+![Dates2][Dates2]
+
+[Dates2]: https://i.itsosticky.com/10njc8l.png "Pervious Dates"
 
 4. **Both calendars show the last days of pervious month.**
 5. **Jqx widget calendar can be colorized after selecting both dates from input boxes.**
@@ -155,19 +158,6 @@
 
 
 
-
-
-
-
-
-
-
-
-*Both calendars show the last days of pervious month*
-
-![Dates2][Dates2]
-
-[Dates2]: https://i.itsosticky.com/10njc8l.png "Pervious Dates"
 
 *Jqx widget calendar can be colorized after selecting both dates.*
 
