@@ -207,4 +207,4 @@
 <> **Optional: You can remove any ranges of date with the choice you made by clicking pencil button.**
 
 
-#**[Working demo](http://jsfiddle.net/hellyeah/smzz2vvk/)**
+#**[Working demo](http://jsfiddle.net/hellyeah/smzz2vvk/embedded/result)**
