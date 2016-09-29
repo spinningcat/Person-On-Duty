@@ -19,7 +19,7 @@
 
 *This frontend development is aimed to offer good interface for such companies carries out the operation in 7/24 basis. Each department must assign a person for not only observing system but also report any problem to related department." 
 
-##### *Feature and functionality of this Software (With images)*
+##### *Feature and functionality of this Software (With images and code pieces)*
 
 1. **Both calendars are Turkish. Here is the piece of code that makes calendar Turkish.**
 
@@ -160,17 +160,20 @@
 ##### *Feature Plans (Future)*
 
 1. **In the datepicker's title you select month and year with dropdown. Make it like windows calendar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box.**
-2. ** In case of the other months selection like October(Ekim), November(Kasım), December(Aralık), Next datepickers you create will show all next months accordingly. For example we are in September(Eylül) currently, if you use a date from October(Ekim), next datepicker will show October(Ekim) and November(Kasım). Another example is  It is illustrated with image below.** 
-![NextMonths][NextMonths]
+2. **In case of the other months selection like October(Ekim), November(Kasım), December(Aralık), Next datepickers you create will show all next months accordingly. For example we are in September(Eylül) currently, if you use a date from October(Ekim), next datepicker will show October(Ekim) and November(Kasım). It is illustrated with image below. And code is below to accompolist that** 
 
-[NextMonths]: https://i.itsosticky.com/8zw9f.png "NextMonths"
-
-**This is the code piece i used when i achieved that task.**
 ```javascript
    var minDate = moment($date.setDate($date.getDate() + 1)).format('M');
           var difference = minDate - moment().format('M');
           $(this).datepicker( "option", "numberOfMonths", difference + 1);
 ```
+
+![NextMonths][NextMonths]
+
+[NextMonths]: https://i.itsosticky.com/8zw9f.png "NextMonths"
+
+**This is the code piece i used when i achieved that task.**
+
 
 3. **To show official holidays either in the jquery ui datepicker or in jqx calendar.**
 
