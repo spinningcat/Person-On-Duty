@@ -160,6 +160,16 @@
 ##### *Feature Plans (Future)*
 
 1. **In the datepicker's title you select month and year with dropdown. Make it like windows calendar's esque is in future plan. You click month to get all months in a box. And you click year in the datepicker's title to get years inside year box.**
+![Months][Months]
+
+[Months]: https://i.itsosticky.com/ij8mf0.png "Months"
+
+![Years][Years]
+
+[Years]: https://i.itsosticky.com/1tetm8k.png "Years"
+
+#**[Working demo](http://jsfiddle.net/hellyeah/smzz2vvk/)**
+
 2. **In case of the other months selection like October(Ekim), November(Kasım), December(Aralık), Next datepickers you create will show all next months accordingly. For example we are in September(Eylül) currently, if you use a date from October(Ekim), next datepicker will show October(Ekim) and November(Kasım). It is illustrated with image below. And code is below to accompolist that** 
 
 ```javascript
@@ -172,11 +182,9 @@
 
 [NextMonths]: https://i.itsosticky.com/8zw9f.png "NextMonths"
 
-**This is the code piece i used when i achieved that task.**
-
-
-3. **To show official holidays either in the jquery ui datepicker or in jqx calendar.**
-
+3. ***To show official holidays within a box in either jquery ui calendar or jqxwidget may
+ be necessary so as to give a warning to user. Because person who plan the schedule
+ To to spesific person, may need to be careful about that. **
 
 ##### "The working flow of this projet*
 
