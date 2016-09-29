@@ -6,14 +6,14 @@
 
 ##### *The libraries that were used in this development.*
 
-1. **Jquery UI**
-2. **Jqx widget**
-3. **Moment.js**
+<> **Jquery UI**
+<> **Jqx widget**
+<> **Moment.js**
 
 ##### *The plugins are used in that project.*
 
-1. **jQuery UI datepicker -> https://jqueryui.com/datepicker/**
-2. **Jqx widget Calendar -> http://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxcalendar/jquery-calendar-getting-started.htm**
+<> **jQuery UI datepicker -> https://jqueryui.com/datepicker/**
+<> **Jqx widget Calendar -> http://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxcalendar/jquery-calendar-getting-started.htm**
 
 ##### *Aim of this development*
 
@@ -127,7 +127,7 @@
 
 ![Dates1][Dates1]
 
-[Dates1]: https://i.itsosticky.com/6867rh.png"Disabled Dates1"
+[Dates1]: https://i.itsosticky.com/6867rh.png "Disabled Dates"
 
 <> **When you select a date from next months in any datepickers. The next datepickers will show the next month automatically. Such as You pick a date from first datepicker. The date you picked is in next months such as OctoberEkim), November(Kasım), December(Aralık), etc. (Calendar indicates the current month as September(Eylül) currently.) In that case, second datepicker will show October(Ekim), Novermber(Kasım) or December(Aralık) as current month. Thanks to that functionality, you can save your time instead of wasting your time with trying to find month that you have select the dates. The reason of that, When you select 1 Oct.(Ekim) from first datepicker you cannot select any days from September(Eylül) in next datepickers.. Thats the prerequisite of this program.**
 ![Dates2][Dates2]
