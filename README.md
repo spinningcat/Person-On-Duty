@@ -1,16 +1,16 @@
 # PersonOnDuty
 
-##### *What technologis used in this development.*
+##### *What technologies used in this project.*
 
 *JavaScript and jQuery were used together in this project.*
 
-##### *The libraries that were used in this development.*
+##### *The libraries used in this project.*
 
-<> **Jquery UI**
+<> **Jquery UI -> https://jqueryui.com/**
 
-<> **Jqx widget**
+<> **Jqx widget -> http://www.jqwidgets.com/**
 
-<> **Moment.js**
+<> **Moment.js -> http://momentjs.com/**
 
 ##### *The plugins used in that project.*
 
@@ -137,8 +137,9 @@
 
 [Dates2]: https://i.itsosticky.com/10njc8l.png "Pervious Dates"
 
- - **Both calendars show the last days of pervious month.**
- - **Jqx widget calendar can be colorized after selecting dates from both datepickers.**
+ <> **Both calendars show the last days of pervious month.**
+ 
+ <> **Jqx widget calendar can be colorized after selecting dates from both datepickers.**
 ![Colorized][Colorized]
 
 [Colorized]: https://i.itsosticky.com/10o9lqw.png "Colorized"
