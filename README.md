@@ -7,12 +7,15 @@
 ##### *The libraries that were used in this development.*
 
 <> **Jquery UI**
+
 <> **Jqx widget**
+
 <> **Moment.js**
 
 ##### *The plugins are used in that project.*
 
 <> **jQuery UI datepicker -> https://jqueryui.com/datepicker/**
+
 <> **Jqx widget Calendar -> http://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxcalendar/jquery-calendar-getting-started.htm**
 
 ##### *Aim of this development*
@@ -191,10 +194,15 @@
 ##### "The working flow of this projet*
 
 <> **Select the department from first dropdown.**
+
 <> **Select a person name from second dropdown.**
+
 <> **Select the type of duty from radio boxes.**
-<> **Create input boxes with + button.**
+
+<> **Create input boxes with "+" button.**
+
 <> **And select dates.**
+
 <> **Optional: You can remove any ranges of date with the choice you made by clicking pencil button.**
 
 
