@@ -21,7 +21,7 @@
 
 ##### *Feature and functionality of this Software (With images and code pieces)*
 
-- **Both calendars are Turkish. Here is the piece of code that makes calendar Turkish.**
+> **Both calendars are Turkish. Here is the piece of code that makes calendar Turkish.**
 
 ```javascript
       monthNames: ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran',
@@ -123,12 +123,13 @@
 ```
 ### **Figure 2 - Jqx widget calendar**  
 
-- You select the dates after creating datepickers with "+". After selecting both dates e.g. 16 September - 19 September, the dates in this range (16 to 19 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
+> **You select the dates after creating datepickers with "+". After selecting both dates e.g. 30 September(Eylül) - 3 October, the dates in this range (30 to 3 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
+
 ![Dates1][Dates1]
 
-[Dates1]: https://i.itsosticky.com/iq2udc.png "Disabled Dates"
+[Dates1]: https://i.itsosticky.com/6867rh.png"Disabled Dates1"
 
-- **When you select a date from next months in any datepickers. The next datepickers will show the next month automatically. Such as You pick a date from first datepicker. The date you picked is in next months such as OctoberEkim), November(Kasım), December(Aralık), etc. (Calendar indicates the current month as September(Eylül) currently.) In that case, second datepicker will show October(Ekim), Novermber(Kasım) or December(Aralık) as current month. Thanks to that functionality, you can save your time instead of wasting your time with trying to find month that you have select the dates. The reason of that, When you select 1 Oct.(Ekim) from first datepicker you cannot select any days from September(Eylül) in next datepickers.. Thats the prerequisite of this program.**
+> **When you select a date from next months in any datepickers. The next datepickers will show the next month automatically. Such as You pick a date from first datepicker. The date you picked is in next months such as OctoberEkim), November(Kasım), December(Aralık), etc. (Calendar indicates the current month as September(Eylül) currently.) In that case, second datepicker will show October(Ekim), Novermber(Kasım) or December(Aralık) as current month. Thanks to that functionality, you can save your time instead of wasting your time with trying to find month that you have select the dates. The reason of that, When you select 1 Oct.(Ekim) from first datepicker you cannot select any days from September(Eylül) in next datepickers.. Thats the prerequisite of this program.**
 ![Dates2][Dates2]
 
 [Dates2]: https://i.itsosticky.com/10njc8l.png "Pervious Dates"
@@ -139,14 +140,14 @@
 
 [Colorized]: https://i.itsosticky.com/10o9lqw.png "Colorized"
 
- - **Weekend Days are shown within a box in the image above**
- - **When you select the dates from both datepickers. Jqx calendar will be colorized with those selections and dates between. And when you hover over dates in the jqx calendar you will see "tooltip" with selected dates and dates between. Also selection from dropdowns and radiobox.**
+> **Weekend Days are shown within a box in the image above**
+> **When you select the dates from both datepickers. Jqx calendar will be colorized with those selections and dates between. And when you hover over dates in the jqx calendar you will see "tooltip" with selected dates and dates between. Also selection from dropdowns and radiobox.**
 ![Tooltip][Tooltip]
 
 [Tooltip]: https://i.itsosticky.com/zhi1pb.png "Tooltip"
 
- - You can remove any dates of range by clicking "pencil" button that you see beside input box.**
-- **Anytime you can remove any datepickers. In case of concerning you made a mistake or in case of assigning different dates for a person. The operation is very simple but lots of going on behind the scene in functionality fashion. You just hit pencil button you can see besides input boxes. When you click it. It will remove input boxes and removes all colors and selection you made earlier. Then it will be recolorized with convenient informations. In short all range of dates and all informations you select from radiobox and dropdowns will be remembered. (This feature is personal logic, fot from API)**
+> **You can remove any dates of range by clicking "pencil" button that you see beside input box.**
+> **Anytime you can remove any datepickers. In case of concerning you made a mistake or in case of assigning different dates for a person. The operation is very simple but lots of going on behind the scene in functionality fashion. You just hit pencil button you can see besides input boxes. When you click it. It will remove input boxes and removes all colors and selection you made earlier. Then it will be recolorized with convenient informations. In short all range of dates and all informations you select from radiobox and dropdowns will be remembered. (This feature is personal logic, fot from API)**
 ![Before][Before]
 
 [Before]: https://i.itsosticky.com/1a1iu96.png "Before"
