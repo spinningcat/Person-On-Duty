@@ -1,6 +1,6 @@
 # PersonOnDuty
 
-##### *What were use in this development.*
+##### *What technologis used in this development.*
 
 *JavaScript and jQuery were used together in this project.*
 
@@ -12,15 +12,15 @@
 
 <> **Moment.js**
 
-##### *The plugins are used in that project.*
+##### *The plugins used in that project.*
 
 <> **jQuery UI datepicker -> https://jqueryui.com/datepicker/**
 
 <> **Jqx widget Calendar -> http://www.jqwidgets.com/jquery-widgets-documentation/documentation/jqxcalendar/jquery-calendar-getting-started.htm**
 
-##### *Aim of this development*
+##### *Aim of this project*
 
-*This frontend development is aimed to offer good interface for such companies carries out the operation in 7/24 basis. Each department must assign a person for not only observing system but also report any problem to related department." 
+**This frontend development is designed for offering handy interface for such companies that carry out the operation in 7/24 basis. Each department in the company/companies will assign a person for not only observing system but also report any problem to related department."* 
 
 ##### *Feature and functionality of this Software (With images and code pieces)*
 
@@ -126,7 +126,7 @@
 ```
 ### **Figure 2 - Jqx widget calendar**  
 
-<> **You select the dates after creating datepickers with "+". After selecting both dates e.g. 30 September(Eylül) - 3 October, the dates in this range (30 to 3 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
+<> **You select the dates after creating datepickers with "+". After selecting both dates e.g. 30 September(Eylül) - 3 October(Ekim), the dates in this range (30 to 3 inclusive) will be disabled. And days and the days before spesific date you select from first datepicker will be disabled too.**
 
 ![Dates1][Dates1]
 
