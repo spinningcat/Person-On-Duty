@@ -58,9 +58,9 @@ var val, opt;
 
 function ConstructFirstDropDown() {
   var dropdownObject = {
-    "Capability Center 1": "İzleme Sistemleri Yönetimi Alt Gr.",
-    "Capability Center 2": "Sistem Yönetimi ve Veri Saklama Alt Gr.",
-    "Capability Center 3": "Network Yazılım Alt Gr."
+    "Capability Center 1": "System Monitoring",
+    "Capability Center 2": "System Management",
+    "Capability Center 3": "Network Software"
   };
   var $firstDropdown = $('.firstdropdown');
 
@@ -75,19 +75,19 @@ function AppearingSecondDropDown() {
   var $secondDropdown = $('.seconddropdown');
   var $radio = $('.radio');
   var capacityCenter1 = {
-    "Person 1": "Kadir Esen",
-    "Person 2": "Soner Gönül",
-    "Person 3": "Berat Emre Nebioğlu"
+    "Person 1": "Anthony Tomtom",
+    "Person 2": "Bres Diart",
+    "Person 3": "James Jerald"
   };
   var capacityCenter2 = {
-    "Person 1": "Volkan Çalışkan",
-    "Person 2": "Emrah Sağlam",
-    "Person 3": "Burak Şahin"
+    "Person 1": "Tom Dorald",
+    "Person 2": "Erich Richter",
+    "Person 3": "Simona Solomon"
   };
   var capacityCenter3 = {
-    "Person 1": "İsmail Atalay",
-    "Person 2": "Süleyman Şahin",
-    "Person 3": "Arsel Erkülekçi"
+    "Person 1": "Daralok Dorolod",
+    "Person 2": "Darold Dorald",
+    "Person 3": "Jim Kenedixal"
   };
   $firstDropdown.on('change', function() {
     //  $('.firstdropdown').prop('disabled', true);
